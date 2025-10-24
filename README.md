@@ -10,10 +10,10 @@ Project ini dibuat untuk membantu Andi dalam menjalankan bisnisnya menggunakan s
 5. Jika sudah selesai berbelanja customer dapat mengecek kembali semua item yang telah di input
 6. Setelah yakin customer bisa melihat berapa total belanja yang harus dibayar
 
-#Alur Program/Flowchart
+# Alur Program/Flowchart
 ![flowchart](https://user-images.githubusercontent.com/123067601/218313859-db532658-9eff-46e1-9785-18c022a588d5.png)
 
-#Penjelasan Code
+# Penjelasan Code
 1. def __init__(self):
    inisialisasi untuk class transaction
 2. self.data_trnsct = dict(): membuat dictionary bernama data_trnsct untuk menyimpan item yang diinput customer
@@ -27,7 +27,7 @@ Project ini dibuat untuk membantu Andi dalam menjalankan bisnisnya menggunakan s
 10. def check_order(self): fungsi untuk menampilkan data transaksi
 11. def total_price(self): fungsi untuk menampilkan total belanja dan juga diskon yang didapatkan oleh customer
 
-#Hasil Test Case
+# Hasil Test Case
 1. Customer ingin menambahkan dua item baru menggunakan method add_item(). item yang ditambahkan adalah sebagai berikut:
    - Nama item: Ayam Goreng, Qty: 2, Harga: 20000
    - Nama item: Pasta Gigi, Qty: 3, Harga: 15000
@@ -36,5 +36,5 @@ Project ini dibuat untuk membantu Andi dalam menjalankan bisnisnya menggunakan s
 ![image](https://user-images.githubusercontent.com/123067601/218318603-7080b9da-f024-4324-8249-df318664e910.png)
 4. Setelah customer selesai berbelanja, akan menghitung total belanja yang harus dibayarkan menggunakan method total_price(). sebelum mengeluarkan output total belanja akan menampilkan item-item yang dibeli.
 
-#Conclusion/Future Work
+# Conclusion/Future Work
 Pada future work apabila saya memiliki waktu dan sdm lebih saya ingin daftar barang yang tersedia di supermarket sudah diinputkan ke program sehingga pengecekan dapat dilakukan otomatis tanpa perlu diminta dan dicek manual oleh customer, apabila terdapat kesalahan pada input customer maka sistem akan langsung menolak atau memberikan pesan peringatan.
